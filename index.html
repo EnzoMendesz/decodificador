@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge: Decodificador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+    <body>
+        <header>
+            <img src="./images/Icone_alura.png" alt="Ícone da Alura" class="logo__alura">
+        </header>
+        <main>
+            <div class="elementos__criptografia">
+                <textarea wrap="hard" id="input" placeholder="Digite seu texto..." class="elementos__texto"></textarea>
+                <p class="alerta">Apenas letras minúsculas e sem acento!</p>
+                <div class="elementos__botoes">
+                    <button id="codificador" class="botao">Codificar</button>
+                    <button id="decodificador" class="botao">Decodificar</button>
+                </div>
+            </div>
+            <div class="elementos__resultados">
+                <style></style> <textarea wrap="hard" id="output" readonly placeholder="Este é o local onde o texto codificado ou decodificado será exibido!" class="texto__resultado"></textarea>
+                <button id="copiar" class="botao">Copiar</button>
+            </div>
+        </main>
+        <footer>
+            <p>Elaborado por <a class="elementos__links" href="https://github.com/EnzoMendesz"> Enzo Mendes</a>
+            </p>
+        </footer>
+        <script type="text/javascript" src="./script/script.js"></script>
+    </body>
+</html>
