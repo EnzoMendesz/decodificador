@@ -44,4 +44,7 @@ Por fim, a coluna Concluído terá os elementos já concluídos.
     <img align ="center" alt="CSS" src=https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white />
 </div>
 
+## Caso queira acessar o projeto:
+https://decodificadordetexto-gilt.vercel.app/
+
 
