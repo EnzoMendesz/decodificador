@@ -1,39 +1,32 @@
-Challenge: Decodificador de Texto
-Este projeto é uma aplicação web que codifica e decodifica textos com base em uma cifra simples. Desenvolvido para praticar habilidades em HTML, CSS e JavaScript, o projeto permite ao usuário converter texto para um formato codificado e reverter para o formato original.
+Descrição
+Boas vindas ao primeiro desafio!
 
-Índice
-Visão Geral
-Instalação
-Uso
-Estrutura do Projeto
-Contribuição
-Licença
-Visão Geral
-A aplicação permite ao usuário:
+Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
 
-Codificar texto em uma cifra personalizada.
-Decodificar texto cifrado de volta ao formato original.
-Copiar o texto decodificado para a área de transferência.
-Os caracteres codificados e decodificados são baseados nas seguintes regras:
+As "chaves" de criptografia que utilizaremos são:
+A letra "e" é convertida para "enter"
+A letra "i" é convertida para "imes"
+A letra "a" é convertida para "ai"
+A letra "o" é convertida para "ober"
+A letra "u" é convertida para "ufat"
 
-a → ai
-e → enter
-i → imes
-o → ober
-u → ufat
-Instalação
-Para rodar o projeto localmente, siga os passos abaixo:
+Requisitos:
+- Deve funcionar apenas com letras minúsculas
+- Não devem ser utilizados letras com acentos nem caracteres especiais
+- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 
-Clone o repositório:
+Por exemplo:
+"gato" => "gaitober"
+gaitober" => "gato"
 
-bash
-Copiar código
-git clone https://github.com/usuario/nome-do-repositorio.git
-Navegue até o diretório do projeto:
+A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções
+O resultado deve ser exibido na tela.
+Extras:
+- Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
 
-bash
-Copiar código
-cd nome-do-repositorio
-Abra o arquivo index.html em um navegador:
+Temos um período de tempo de quatro semanas para desenvolver o projeto e vamos trabalhar com o sistema ágil de desenvolvimento, utilizando o Trello da seguinte forma:
 
-O projeto não requer instalações adicionais. Basta abrir o arquivo index.html com um navegador para começar a usar a aplicação.
+A coluna Pronto pra iniciar apresenta os cartões com os elementos ainda não desenvolvidos.
+Já na coluna Desenvolvendo ficarão os elementos que você estiver desenvolvendo no momento. Ao iniciar uma tarefa, você poderá mover o cartão que contém a tarefa para esta coluna.
+No Pausado estarão os elementos que você começou a desenvolver, mas precisou parar por algum motivo.
+Por fim, a coluna Concluído terá os elementos já concluídos.
